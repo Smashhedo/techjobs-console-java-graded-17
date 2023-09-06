@@ -123,14 +123,14 @@ public class TechJobs {
             System.out.print("No Results");
         }
         for (HashMap<String, String> searchTerm : someJobs) {
+            System.out.println("*****");
 
                 for (String key : searchTerm.keySet()) {
                     String value = searchTerm.get(key);
                     System.out.println(key + ": " + value);
                 }
-                System.out.println("*****");
-              System.out.println(" ");
             System.out.println("*****");
+                System.out.println(" ");
             }
         }
     }
